@@ -11,7 +11,7 @@ $(BIN): $(SRC)
 	$(CC) $(CFLAGS) -o $(BIN) $(SRC) $(LDFLAGS)
 
 run: $(BIN)
-	./$(BIN) data/vendas.csv
+	./$(BIN) data/avocado_total_us.csv
 
 clean:
 	rm -f $(BIN) data/resultados.csv
