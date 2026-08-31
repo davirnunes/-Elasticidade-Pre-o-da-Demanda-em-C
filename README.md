@@ -52,8 +52,8 @@ make run
 Ou manualmente:
 
 ```bash
-gcc -Wall -Wextra -std=c11 -Iinclude -o elasticidade src/main.c src/ols.c -lm
-./elasticidade data/vendas.csv
+gcc -Wall -Wextra -std=c11 -Iinclude -o elasticidade.exe src/main.c src/ols.c -lm
+.\elasticidade.exe data/avocado_total_us.csv
 ```
 
 O programa aceita qualquer CSV com colunas `price,quantity` (com cabeçalho)
