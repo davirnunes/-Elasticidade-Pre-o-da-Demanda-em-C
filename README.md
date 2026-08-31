@@ -32,7 +32,7 @@ O programa estima β₀ e β₁ por OLS e reporta:
 ```
 .
 ├── data/
-│   ├── vendas.csv        # dados de entrada (preço, quantidade)
+│   ├── avocado_total_us.csv        # dados de entrada (preço, quantidade)
 │   └── resultados.csv    # gerado após rodar: previsões + resíduos
 ├── include/
 │   └── ols.h              # interface do módulo estatístico
